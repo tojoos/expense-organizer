@@ -1,0 +1,2 @@
+income1 500.0
+income2 40.4

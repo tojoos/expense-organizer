@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 public class Backup {
     public void createBackup() throws IOException {
         LocalDateTime localDateTime = LocalDateTime.now();
-        File backupFolder = new File("C:\\Users\\joos\\IdeaProjects\\expense_organizer\\files\\backup_(" + localDateTime.toLocalDate() +")");
-        File expenses = new File("C:\\Users\\joos\\IdeaProjects\\expense_organizer\\files\\Expenses.txt");
-        File incomes = new File("C:\\Users\\joos\\IdeaProjects\\expense_organizer\\files\\Incomes.txt");
+        File backupFolder = new File("Files\\backup_(" + localDateTime.toLocalDate() +")");
+        File expenses = new File("Files\\Expenses.txt");
+        File incomes = new File("Files\\Incomes.txt");
         File expBackup = new File(backupFolder.getAbsolutePath() + "\\expBackup.txt");
         File incomeBackup = new File(backupFolder.getAbsolutePath() + "\\incomeBackup.txt");
 
