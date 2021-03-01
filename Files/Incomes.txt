@@ -1,2 +1,3 @@
-income1 500.0
 income2 40.4
+lol 23.33
+kebab 20.32
